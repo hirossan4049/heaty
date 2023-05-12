@@ -1,0 +1,8 @@
+[
+    {
+        "type": "cpu",
+        "trigger": "80%",
+        "interval": 60,
+        "shell": "pkill ffmpeg"
+    }
+]
