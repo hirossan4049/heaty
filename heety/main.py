@@ -32,7 +32,6 @@ def cpu_trigger(index, trigger, shell, interval):
         triggerd_data[index] = time.time()
         subprocess.call(shell, shell=True)
 
-
 def mem_trigger(index, trigger, shell, interval):
     if not '%' in trigger:
         raise "triggerに%がセットされていません"
